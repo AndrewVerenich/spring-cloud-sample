@@ -1,0 +1,5 @@
+rootProject.name = 'spring-cloud-sample'
+include 'guest-service'
+include 'reservation-service'
+include 'room-service'
+
