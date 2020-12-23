@@ -1,4 +1,4 @@
-package com.cloud.sample.roomservice;
+package com.cloud.sample.roomreservationservice;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

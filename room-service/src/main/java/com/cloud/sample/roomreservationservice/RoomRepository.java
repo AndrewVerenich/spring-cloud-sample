@@ -1,4 +1,4 @@
-package com.cloud.sample.roomservice;
+package com.cloud.sample.roomreservationservice;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
