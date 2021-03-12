@@ -1,10 +1,24 @@
 package com.cloud.sample.roomreservationservice;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonInclude;
+
 public class Room {
     private long id;
     private String name;
     private String roomNumber;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String bedInfo;
+
+    public Room(long id, String name, String roomNumber, String bedInfo) {
+        this.id = id;
+        this.name = name;
+        this.roomNumber = roomNumber;
+        this.bedInfo = bedInfo;
+    }
+
+    public Room() {
+    }
 
     public long getId() {
         return id;
