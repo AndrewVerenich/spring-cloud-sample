@@ -25,6 +25,7 @@ dependencies {
     implementation group: 'com.h2database', name: 'h2', version: '1.4.200'
 
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
 
     compileOnly group: 'javax.servlet', name: 'servlet-api', version: '2.5'
     
