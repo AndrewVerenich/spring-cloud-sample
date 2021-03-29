@@ -33,7 +33,7 @@ public class GatewayApp {
                                 .addResponseHeader("Hello", "World")
                                 .addRequestParameter("Param1", "Value1")
                         )
-                        .uri("lb://ROOMSERVICE:8083/"))
+                        .uri("lb://ROOMSERVICE/"))
                 .build();
     }
 
